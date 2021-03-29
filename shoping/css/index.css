@@ -1,0 +1,53 @@
+.main {
+    margin-top: 10px;
+    width: 980px;
+    height: 455px;
+    background-color: pink;
+    margin-left: 220px;
+}
+
+.focus {
+    width: 721px;
+    height: 455px;
+    float: left;
+    background-color: yellow;
+}
+
+.newflash {
+    width: 250px;
+    height: 455px;
+    float: right;
+    background-color: skyblue;
+}
+
+.news {
+    height: 165px;
+    background-color: pink;
+}
+
+.lifeservice {
+    height: 209px;
+    background-color: purple;
+}
+
+.news-hd {
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.news-hd h5 {
+    line-height: 33px;
+    font-size: 14px;
+    float: left;
+}
+
+.news-hd .more {
+    float: right;
+    line-height: 33px;
+}
+
+.news-hd .more::after {
+    content: '\ea51';
+    font-family: 'icomoon';
+}
